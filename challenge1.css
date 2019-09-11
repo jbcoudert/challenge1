@@ -130,6 +130,9 @@ li, a{
     padding:0 8px;
 }
 
+li:hover {
+    color: #cfa205;
+}
 /*--------main--------*/
 
 article {
