@@ -51,19 +51,39 @@ table {
 
 
 
-header, main {
+header {
     margin: auto;
     width: 1020px;
     text-align: center;
+}
+
+main {
+    width: 1020px;
+    text-align: center;
+    margin:auto;
+    background-color: white;
+    font-family: 'Bitter', serif;
+
+
+   
+    
 }
 
 li, article {
     display: inline-block;
 }
 
+li, a{
+    color:white;
+    vertical-align: middle;
+    font-size: 18px;
+    text-decoration:none;
+
+}
 article {
     width: 260px;
     height: 675px;
+   margin: auto;
 
 }
 
@@ -74,11 +94,13 @@ nav {
 h1 {
     font-size: 133px;
     height: 260px;
+    color:#cfa205;
 }
 
 h2 {
     font-size: 18px;
     height: 60px;
+    color:#cfa205;
 }
 
 
@@ -91,6 +113,35 @@ main > section > p {
     height: 90px;
 }
 
-#logo {
+img {
+    height:195px;
+}
+h2+p{
+    height: 480px;
+}
 
+body  {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+nav, #titre{
+    background-color: black;
+}
+
+
+#logo {
+    background-color: #e8e8e8;
+
+}
+
+section {
+    width: 900px;
+    margin:auto;
+}
+
+section p{
+    font-size: 14px;
+    
 }
